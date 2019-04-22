@@ -8,14 +8,14 @@ namespace Tests
     using System.Threading;
     using System.Threading.Tasks;
 
-    using LastModifiedQueryable;
+    using LastModifiedQueryableExtensions;
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     using Storage.Net;
     using Storage.Net.Blob;
 
-    using SubMeWithStorageNetLater;
+    using StronglyTypedBlobStorage;
 
     [TestClass]
     public class CachedQueryableTests
